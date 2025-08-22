@@ -1,7 +1,7 @@
 
 # 🚀 My First Express HTTPS Server
 
-A simple HTTPS server built using **Expess core modules** (`https`, `fs`) without any frameworks.
+A simple HTTPS server built using **Expess core modules** (`https`, `fs`).
 This project demonstrates how to:
 
 * Generate SSL certificates (self-signed for development).
