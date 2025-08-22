@@ -1,0 +1,3 @@
+# Ignored files (SSL certs, node_modules)
+{key.perm}
+{cert.pem}
