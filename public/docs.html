@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation-https</title>
+</head>
+<body style = "background-color:black;color:white;">
+    <h1 style="color:powderblue;">Implementing HTTPS with Express.js</h1>
+    <p>To implement HTTPS with Express.js, you need to use the built-in https module in Node.js and provide an SSL certificate and private key.</p>
+    <h2 style="color:rgb(93, 118, 122);">Obtain SSL Certificate and Key:</h2>
+    <p>For development or local testing, you can generate self-signed certificates using tools like mkcert or OpenSSL.</p>
+    <p>For production environments, you should obtain a trusted SSL certificate from a Certificate Authority (CA) like Let's Encrypt or a commercial provider.</p>
+    <h2 style ="color:rgb(93, 118, 122);">Read Certificate Files: </h2>
+    <p>Use Node.js's fs module to read the generated or obtained certificate files (e.g., key.pem and cert.pem).</p>
+    <h2 style ="color:rgb(93, 118, 122);">Create HTTPS Server:</h2>
+    <p>Use the https.createServer() method, passing an options object containing the key and cert (and optionally ca for certificate chains) and the Express app instance.</p>
+</body>
+</html>
